@@ -59,8 +59,18 @@ footer{
   }
 }
 @media (max-width: 767px) {
+  h1{
+    font-size: 2rem;
+    padding: 1.5rem;
+  }
+  .bottom{
+    margin: 0;
+  }
   .container{
-    width: 80%;
-    margin-top: 2rem;
+    width: 95%;
+    margin-bottom: 2rem;
+  }
+  .main{
+    padding: 1rem 1rem;
   }
 }
